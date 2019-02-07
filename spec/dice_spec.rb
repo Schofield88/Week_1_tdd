@@ -1,0 +1,3 @@
+describe Dice do
+  
+end
