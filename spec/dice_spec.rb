@@ -8,4 +8,6 @@ describe Dice do
     expect(subject.roll).to be_between(1, 6).inclusive
   end
 
+  it { is_expected.to respond_to(:roll).with(1).argument }
+
 end
